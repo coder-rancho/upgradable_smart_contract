@@ -1,0 +1,126 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0x6095c7e123fe1b4865300bda902f7429c918f4ffde64772074d4f312fd340cf0"
+  },
+  "proxies": [
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0x565896050ed13a364f426685382aaf03a89f2618e5c14ca5f1eda4f377b6ee88",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0xa1a01d855d1d47a59d5c7ec303bcf9a9ab5bd4745954dd4780cff2f7c435c2d0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0xf9a854b9d071afa1d9a6448af618bf5756f9363d152e8061b3b8e1df566703e5",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "869c0e35eee40e0d3c8267fee68dd139fdbeb1462a842ad0c9ea3bbfd6a83b47": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x878483a91435557c922d103f3cd851dbf9b877fc8e77b14f7cdd362da791cfab",
+      "layout": {
+        "storage": [
+          {
+            "label": "superAdmin",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "B",
+            "src": "contracts\\B.sol:5"
+          },
+          {
+            "label": "isAdmin",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "B",
+            "src": "contracts\\B.sol:6"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "A",
+            "src": "contracts\\A.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "3a9960e1ce0175d807dff62ceb07f2d6b52bfc29f02140529851359325e64235": {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x39463b2e049b487e13ae0ddd7966363cfd96b09f3b556bdfd30192aee33d4674",
+      "layout": {
+        "storage": [
+          {
+            "label": "superAdmin",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_address",
+            "contract": "B",
+            "src": "contracts\\B.sol:5"
+          },
+          {
+            "label": "isAdmin",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "B",
+            "src": "contracts\\B.sol:6"
+          },
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "Av2",
+            "src": "contracts\\Av2.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
